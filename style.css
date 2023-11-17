@@ -1,0 +1,247 @@
+@font-face{
+    font-family: "fonti";
+    src: url(./fonts/NunitoSans_7pt-SemiBold.ttf);
+}
+@font-face{
+    font-family: "fonti2";
+    src: url(./fonts/NunitoSans_10pt_Condensed-ExtraBold.ttf);
+}
+body{
+    display: flex;
+}
+/*         Header         */
+.header{
+    background-image: url(./img/illustration\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 830px;
+    height: 809px;
+    border-radius: 16px 0px 0px 16px;
+    border: 1px solid white;
+ 
+    
+    
+}
+.title{
+    margin-top: 680px;
+    
+}
+.title1{
+    color: #73114B;
+
+font-family: "fonti2";
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 280px;
+
+
+}
+.title2{
+    color: #73114B;
+
+font-family: "fonti";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 210px;
+}
+/*         სარეგისტრაციო ფორმა         */
+.register{
+width: 511px;
+height: 809px;
+
+flex-shrink: 0;
+align-items: center;
+background-image: url(./img/icon.png);
+background-repeat: no-repeat;
+background-position-x: 20%;
+background-position-y: 20%;
+}
+.register2{
+    width: 320px;
+    height: 100px;
+    margin-top: 250px;
+    margin-left:90px;
+}
+.title3{
+    color: #525252;
+
+font-family: "fonti";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.title4{
+    color: #525252;
+
+font-family: "fonti";
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+input{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    text-align: center;
+    background-image: url(./img/image\ 2.png);
+    background-repeat: no-repeat;
+    background-position-x: 25%;
+    background-position-y: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+input::placeholder{
+    color: var(--Gray-3, #828282);
+    font-family:"fonti";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.title5{
+    color: #A1A1A1;
+    font-family: "fonti";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 40px;
+
+}
+.form{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.title6{
+    color: var(--Gray-3, #828282);
+font-family:"fonti";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.my-email{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #DED2D9;
+    background-image: url(./img/envelope.png);
+    background-repeat: no-repeat;
+    background-position: 99%;
+    margin-top: auto;
+}
+.my-email::placeholder{
+    color: var(--Gray-5, #E0E0E0);
+    font-family: "fonti";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    float: left;
+    margin-left: 10px;
+}
+.title7{
+    color: var(--Gray-3, #828282);
+font-family: "fonti";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.my-pass{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #DED2D9;
+    background-image: url(./img/key.png);
+    background-repeat: no-repeat;
+    background-position: 99%;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+.my-pass::placeholder{
+    color: var(--Gray-5, #E0E0E0);
+font-family: "fonti";
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+float: left;
+margin-left: 10px;
+}
+.check{
+    width: 410px;
+    height: 50px;
+    
+    background-image: url(./img/Check.png);
+    background-repeat: no-repeat;
+    margin-top: auto;
+    display: flex;
+}
+.title8{
+    color: #A1A1A1;
+
+font-family: "fonti";
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+margin-left: 20px;
+}
+.title9{
+    color: #7F265B;
+
+    font-family: "fonti";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 150px;
+}
+ /*        ღილაკი      */
+button{
+    width: 360px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+background: #7F265B;
+color: #FFF;
+font-family: "fonti";
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+/*         Footer         */
+.footer{
+    width: 300px;
+    height: 40px;
+    
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.title10{
+    color: var(--Gray-3, #828282);
+font-family: "fonti";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.title11{
+    color: #7F265B;
+font-family: "fonti";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
