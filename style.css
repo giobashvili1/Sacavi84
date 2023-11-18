@@ -84,7 +84,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-input{
+.google{
     width: 350px;
     height: 30px;
     border-radius: 5px;
@@ -117,74 +117,83 @@ input::placeholder{
 
 }
 .form{
+    position: relative;
     margin-top: 120px;
-    margin-left: 100px;
+    background-color: white;
+    height: 70px;
+    margin-left: 90px;
+    
 }
 .title6{
     color: var(--Gray-3, #828282);
-font-family:"fonti";
-font-size: 12px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: "fonti";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   
 }
 .my-email{
     width: 350px;
     height: 30px;
+    background-color: white;
     border-radius: 5px;
     border: 1px solid #DED2D9;
-    background-image: url(./img/envelope.png);
-    background-repeat: no-repeat;
-    background-position: 99%;
-    margin-top: auto;
+    
+    
 }
-.my-email::placeholder{
+input::placeholder{
     color: var(--Gray-5, #E0E0E0);
     font-family: "fonti";
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    float: left;
-    margin-left: 10px;
+}
+img{
+    position: absolute;
+    bottom:  -35px;
+    right: 10px; 
+}
+.form2{
+    position: relative;
+    margin-left: 90px;
+    
+    
 }
 .title7{
     color: var(--Gray-3, #828282);
-font-family: "fonti";
-font-size: 12px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: "fonti";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    
 }
 .my-pass{
     width: 350px;
     height: 30px;
+    background-color: white;
     border-radius: 5px;
     border: 1px solid #DED2D9;
-    background-image: url(./img/key.png);
-    background-repeat: no-repeat;
-    background-position: 99%;
-    margin-top: auto;
-    margin-bottom: 10px;
+    
 }
-.my-pass::placeholder{
-    color: var(--Gray-5, #E0E0E0);
-font-family: "fonti";
-font-size: 10px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-float: left;
-margin-left: 10px;
+.key{
+    position: absolute;
+    right: 20px;
+    margin-top: 0;
+    bottom: -46px;
 }
 .check{
     width: 410px;
     height: 50px;
-    
     background-image: url(./img/Check.png);
     background-repeat: no-repeat;
     margin-top: auto;
     display: flex;
+    margin-top: 10px;
+    margin-left: 90px;
 }
 .title8{
     color: #A1A1A1;
@@ -207,27 +216,25 @@ margin-left: 20px;
     line-height: normal;
     margin-left: 150px;
 }
- /*        ღილაკი      */
 button{
     width: 360px;
     height: 45px;
     border-radius: 6px;
     border: none;
-background: #7F265B;
-color: #FFF;
-font-family: "fonti";
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    background: #7F265B;
+    color: #FFF;
+    font-family: "fonti";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 90px;
 }
-/*         Footer         */
 .footer{
     width: 300px;
     height: 40px;
-    
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 140px;
 }
 .title10{
     color: var(--Gray-3, #828282);
